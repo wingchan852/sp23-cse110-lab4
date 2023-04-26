@@ -48,4 +48,11 @@
 
 15. == allow the system to do the convert for you then do the comparison. === return false if we compare two different data types. 
 
-17. It return [2, 4, 6]. We first create an empty array called newArr. Then, we step through each element in array, applying the callback function on each of them then push it to newArr. In other words, newArr is storing the callback function. Once we return newArr, all the callback function in newArr start execute. Eventually, we got [2, 4, 6] as the callback function double the value. 
+17 It return [2, 4, 6]. We first create an empty array called newArr. Then, we step through each element in array, applying the callback function on each of them then push it to newArr. In other words, newArr is storing the callback function. Once we return newArr, all the callback function in newArr start execute. Eventually, we got [2, 4, 6] as the callback function double the value. 
+
+18 It prints out: \
+1 \
+4 \
+3 \
+2 
+
